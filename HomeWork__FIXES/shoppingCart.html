@@ -1,0 +1,303 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+   <!-- Заголовок страницы в браузере -->
+   <title>Shopping Cart</title>
+   <!-- Подключаем CSS -->
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet">
+   <script src="https://kit.fontawesome.com/07db5be7a8.js" crossorigin="anonymous"></script>
+   <!-- Кодировка страницы -->
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+   <div class="wrapper">
+      <div class="header ">
+         <div class="header__topline ">
+            <div class="container__topline container">
+               <div class="topline__wrapper">
+                  <div class="topline__logo">
+                     <a href="#"><img src="./img/Icons/logo_icon.png" alt="b"></a>
+                     <p>bran<span>d</span></p>
+                  </div>
+                  <div class="topline__navigation">
+                     <div class="navigation__browse">
+                        <button>Browse</button>
+                     </div>
+                     <div class="navigation__serch">
+                        <input type="serch" placeholder="Search for Item...">
+                        <button><img src="./img/Icons/serch_icon.png" alt="serch"></button>
+                     </div>
+                  </div>
+               </div>
+               <div class="topline__personals">
+                  <div class="personals__cart">
+                     <a href="#"><img src="./img/Icons/cart_icon.png" alt="cart"></a>
+                  </div>
+                  <div class="personals__account">
+                     <button>My Account</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header__bottomline">
+            <a href="./index.html">Home</a>
+            <a href="#">Man</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Accoseriese</a>
+            <a href="#">Featured</a>
+            <a href="#">Hot Deals</a>
+         </div>
+      </div>
+      <div class="block__bradcramps ">
+         <div class="breadcramps container">
+            <div class="breadcramps__title">New Arrivals </div>
+            <div class="breadcramps__nav">
+               <a href="#">Home /</a>
+               <a href="#">Men /</a>
+               <a href="#">New Arrivals</a>
+            </div>
+         </div>
+      </div>
+      <div class="shopping-cart container">
+         <div class="shopping-cart__titles">
+            <div class="titles__details">Product Details</div>
+            <div class="titles__price">unite Price</div>
+            <div class="titles__quantity">Quantity</div>
+            <div class="titles__shipping">shipping</div>
+            <div class="titles__subtotal">Subtotal</div>
+            <div class="titles__action">ACTION</div>
+         </div>
+         <div class="shopping-cart__elements">
+            <div class="elements__product">
+               <div class="product__details">
+                  <div class="details__image">
+                     <img src="./img/Images/Shopping_cart_img_1.jpg" alt="">
+                  </div>
+                  <div class="details__details">
+                     <div class="details__title">Mango People T-shirt</div>
+                     <div class="details__color">Color: <span>Red </span></div>
+                     <div class="details__size">Size: <span>Xll </span></div>
+                  </div>
+               </div>
+               <div class="product__unuteprice">$150</div>
+               <div class="product__quantity">2</div>
+               <div class="product__shipping">FREE</div>
+               <div class="product__subtotal">$300</div>
+               <div class="product__action">
+                  <img src="./img/Icons/action__icon.png" alt="action">
+               </div>
+            </div>
+            <div class="elements__product">
+               <div class="product__details">
+                  <div class="details__image">
+                     <img src="./img/Images/Shopping_cart_img_2.jpg" alt="">
+                  </div>
+                  <div class="details__details">
+                     <div class="details__title">Mango People T-shirt</div>
+                     <div class="details__color">Color: <span>Red</span></div>
+                     <div class="details__size">Size: <span>Xll</span></div>
+                  </div>
+               </div>
+               <div class="product__unuteprice">$150</div>
+               <div class="product__quantity">2</div>
+               <div class="product__shipping">FREE</div>
+               <div class="product__subtotal">$300</div>
+               <div class="product__action">
+                  <img src="./img/Icons/action__icon.png" alt="action">
+               </div>
+            </div>
+            <div class="elements__product">
+               <div class="product__details">
+                  <div class="details__image">
+                     <img src="./img/Images/Shopping_cart_img_3.jpg" alt="">
+                  </div>
+                  <div class="details__details">
+                     <div class="details__title">Mango People T-shirt</div>
+                     <div class="details__color">Color: <span>Red</span></div>
+                     <div class="details__size">Size: <span>Xll</span></div>
+                  </div>
+               </div>
+               <div class="product__unuteprice">$150</div>
+               <div class="product__quantity">2</div>
+               <div class="product__shipping">FREE</div>
+               <div class="product__subtotal">$300</div>
+               <div class="product__action">
+                  <img src="./img/Icons/action__icon.png" alt="action">
+               </div>
+            </div>
+         </div>
+         <div class="shopping-cart__navigation">
+            <div class="navigation__button">
+               <button>cLEAR SHOPPING CART</button>
+            </div>
+            <div class="navigation__button">
+               <button>cONTINUE sHOPPING</button>
+            </div>
+         </div>
+         <div class="shopping-cart__details">
+            <div class="details__adress">
+               <form class="adress__form" action="#">
+                  <label class="form__label" for="">Shipping Adress
+                     <select name="" id="">
+                        <option value="">Bangladesh</option>
+                        <option value="">Russia</option>
+                        <option value="">China</option>
+                     </select>
+                     <input type="text" placeholder="State">
+                     <input type="text" placeholder="Postcode/Zip">
+                  </label>
+                  <button>get a quote</button>
+               </form>
+            </div>
+            <div class="details__discount">
+               <div class="discount__title">coupon discount</div>
+               <div class="discount__subtitle">Enter your coupon code if you have one</div>
+               <form class="discount__form" action="#">
+                  <input type="text" placeholder="State">
+                  <button>Apply coupon</button>
+               </form>
+            </div>
+            <div class="details__total">
+               <div class="total__sub">Sub total $900</div>
+               <div class="total__grand">GRAND TOTAL <span>$900</span></div>
+               <div class="total__button">
+                  <button>proceed to checkout</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="block-subscribe">
+         <div class="wrapper__subscribe container">
+            <div class="subscribe__quote">
+               <div class="quote__image">
+                  <img src="./img/Images/quote_image.png" alt="photo">
+               </div>
+               <div class="quote__text">
+                  <div class="text__main">
+                     <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                  </div>
+                  <div class="text__author">Bin Burhan</div>
+                  <div class="text__place">Dhaka, Bd</div>
+                  <div class="quote__controls">
+                     <span></span>
+                  </div>
+               </div>
+
+            </div>
+            <div class="vertical__line"></div>
+            <div class="subscribe__form">
+               <div class="form__title">Subscribe</div>
+               <div class="form__subtitle">for our newletter and promotion</div>
+               <div class="form__input">
+                  <input type="email" placeholder="Enter Your Email">
+                  <button>Subscribe</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="block-footer">
+         <div class="footer__main container">
+            <div class="main__columns">
+               <div class="columns__row row__about">
+                  <div class="topline__logo about__logo">
+                     <a href="#"><img src="./img/Icons/logo_icon.png" alt="b"></a>
+                     <p>bran<span>d</span></p>
+                  </div>
+                  <div class="about__text">
+                     <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                        syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an
+                        expanded array of processes and cross-unit partnerships. </p>
+                     <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                  </div>
+               </div>
+               <div class="columns__navigation">
+                  <div class="columns__row">
+                     <div class="row__title">COMPANY</div>
+                     <div class="row__list">
+                        <ul class="list__items">
+                           <li><a href="#">Home</a></li>
+                           <li><a href="#">Shop</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">How It Works</a></li>
+                           <li><a href="#">Contact</a></li>
+                        </ul>
+                     </div>
+
+                  </div>
+                  <div class="columns__row">
+                     <div class="row__title">information</div>
+                     <div class="row__list">
+                        <ul class="list__items">
+                           <li><a href="#">Tearms & Condition</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">How to Buy</a></li>
+                           <li><a href="#">How to Sell</a></li>
+                           <li><a href="#">Promotion</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="columns__row">
+                     <div class="row__title">shop category</div>
+                     <div class="row__list">
+                        <ul class="list__items">
+                           <li><a href="#">Men</a></li>
+                           <li><a href="#">Women</a></li>
+                           <li><a href="#">Child</a></li>
+                           <li><a href="#">Apparel</a></li>
+                           <li><a href="#">Brows All</a></li>
+                        </ul>
+                     </div>
+
+                  </div>
+
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <div class="wrapper__bottom container">
+               <div class="bottom__rights">
+                  <span>&copy; 2017 Brand All Rights Reserved.</span>
+               </div>
+               <div class="bottom__socials">
+                  <div class="socials__item">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  </div>
+                  <div class="socials__item">
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="socials__item">
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div class="socials__item">
+                     <a href="#"><i class="fab fa-pinterest-p"></i></i></a>
+                  </div>
+                  <div class="socials__item">
+                     <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+</body>
+
+<!-- Подключаем JQuery -->
+
+<!-- Подключаем JavaScript -->
+
+
+</html>
